@@ -1,0 +1,647 @@
+.testimonials {
+    background-color: #f3f3f3;
+    padding-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+
+    .wrapper {
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+    .testimonials-text {
+        margin-bottom: 50px;
+    }
+    .slider-two { 
+        max-width: 1100px;
+        margin: 0 auto 50px;
+    }
+    .slick-dotted.slick-slider {
+        margin-bottom: 80px;
+    }
+    .slick-list {
+        overflow: hidden;
+    }
+    /*булитики*/
+    .slider-two .slick-dots {
+        bottom: 20px;
+    }
+    .slider-two .slick-dots li {
+        margin: 0 1px;
+    }
+    .slider-two .slick-dots li button:before {
+        font-size: 0px;
+        width: 10px;
+        height: 10px; 
+        border: 1px solid #19BD9A;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    .slick-dots li.slick-active button:before {
+        opacity: .75;
+        color: rgb(243, 241, 241);
+        background-color: #19BD9A;
+        border: 1px solid transparent;
+    }
+    
+    .slider-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 1120px;
+        margin: auto;
+        background-color: #fff;
+        padding: 50px 0 90px 0;
+        overflow: hidden;
+        outline-style: none;
+    }
+    .slider-image {
+        width: 131px;
+        height: 131px;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+    }
+    .slider-right-cont {
+        max-width: 754px;
+        margin-left: 30px;
+    }
+    .textic {
+        font-size: 16px;
+        color: #81868E;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 26px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+    }
+    .name {
+        color: #19BD9A;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .sub-title {
+        font-size: 14px;
+        color: #464646;
+        
+    }
+
+    .lates-news {
+        background: url('../assets/images/11.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: rgb(37, 37, 37);
+        width: 100%;
+        height: auto;
+        color: #fff;
+    }
+    .lates-news-body {
+        padding: 60px 0 5px 90px;
+    }
+    .lates-news-title {
+        font-size: 20px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .lates-news-text {
+        color: #B2B3B3;
+        font-size: 14px;
+        max-width: 457px;
+        line-height: 25px;
+        font-weight: 400;
+        padding-bottom: 60px;
+    }
+    .lates-news-slider .slick-slide {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+     /*булитики*/
+     .lates-news-slider .slick-dots {
+        position: absolute;
+        right: 80px;
+        bottom: 180px;
+        list-style: none;
+        display: grid;
+        justify-content: right;
+        text-align: right;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .lates-news-slider .slick-dots li button {
+        height: 0px;
+        width: 0px;
+    }
+    .lates-news-slider .slick-dots li {
+        right: 0;
+    }
+    .lates-news-slider .slick-dots li button:before {
+        font-size: 0px;
+        width: 10px;
+        height: 10px; 
+        border: 1px solid #fff;
+        border-radius: 50%;
+        opacity: 1;
+    }
+
+    .lates-news-slider .slick-dots li.slick-active button:before {
+        opacity: .75;
+        color: rgb(243, 241, 241);
+        background-color: #fff;
+        border: 1px solid transparent;
+    }
+
+    .lates-news-item {
+        margin: 0 0 30px 70px;
+        outline-style: none;
+    }
+    .lates-news-title-two {
+        color: #E1E4E9;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+    }
+    .lates-news-sub-title span {
+        color: #918a8a;
+    }
+    .lates-news-sub-title {
+        font-size: 14px;
+        color: #19BD9A;
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: 600;
+    }
+    .lates-news-comments {
+        color: #464646;
+        letter-spacing: 2px;
+        font-size: 14px;
+        color: #918a8a;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+    .lates-news-long-text {
+        max-width: 580px;
+        color: #81868E;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+    .lates-news-button a {
+        font-size: 18px;
+        border-radius: 25px;
+        padding: 4px 15px;
+        color: #fff;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        outline-style: none;
+        &:hover {
+            background-color: #19BD9A;
+            border-color: #19BD9A;
+        }
+    }
+}
+@media (max-width: 824px) {
+    .testimonials .slider-right-cont {
+        max-width: 450px;
+        margin-left: 0px;
+    }
+    .testimonials .lates-news-title {
+        font-size: 17px;
+        letter-spacing: 3px;
+    }
+    .testimonials .lates-news-text {
+        max-width: 350px;
+        line-height: 22px;
+        padding-bottom: 20px;
+        margin-bottom: 0;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+        align-items: start;
+    }
+    .testimonials .lates-news-item {
+        margin: 0 0 27px 0px;
+    }
+    .testimonials .lates-news-title-two {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+    .testimonials .lates-news-sub-title {
+        font-size: 13px;
+    }
+    .testimonials .lates-news-comments {
+        margin-bottom: 15px;
+    }
+    .testimonials .lates-news-long-text {
+        max-width: 520px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .testimonials .lates-news-body {
+        padding: 30px 0 0px 30px;
+    }
+    .testimonials .slick-dotted.slick-slider {
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .testimonials .slider-right-cont {
+        max-width: 450px;
+        margin-left: 0px;
+    }
+    .testimonials .lates-news-title {
+        font-size: 17px;
+        letter-spacing: 3px;
+    }
+    .testimonials .lates-news-text {
+        max-width: 350px;
+        line-height: 22px;
+        padding-bottom: 20px;
+        margin-bottom: 0;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+        align-items: start;
+    }
+    .testimonials .lates-news-item {
+        margin: 0 0 27px 0px;
+    }
+    .testimonials .lates-news-title-two {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+    .testimonials .lates-news-sub-title {
+        font-size: 13px;
+    }
+    .testimonials .lates-news-comments {
+        margin-bottom: 15px;
+    }
+    .testimonials .lates-news-long-text {
+        max-width: 520px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .testimonials .lates-news-body {
+        padding: 30px 0 0px 30px;
+    }
+    .testimonials .slick-dotted.slick-slider {
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 736px) {
+    .testimonials .slider-image {
+        width: 100px;
+        height: 100px;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+        align-items: center;
+    }
+    .testimonials .textic {
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0px;
+        margin-bottom: 15px;
+    }
+    .testimonials .name {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .testimonials .sub-title {
+        font-size: 12px;
+        color: #464646;
+    }
+    .testimonials .slider-two .slick-dots {
+        bottom: 5px;
+    }
+    .testimonials .slider-two .slick-dots li button:before {
+        width: 8px;
+        height: 8px;
+    }
+    .testimonials .slider-item {
+        padding: 20px 0 50px 0;
+    }
+    .testimonials .lates-news-slider .slick-slide {
+        display: block;
+        flex-direction: column;
+    }
+    .testimonials .lates-news-body {
+        padding: 20px 0 0px 20px;
+    }
+    .testimonials .lates-news-title {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .testimonials .lates-news-text {
+        max-width: 320px;
+        line-height: 18px;
+        padding-bottom: 18px;
+        margin-bottom: 0;
+    }
+    .testimonials .lates-news-title-two {
+        font-size: 17px;
+        margin-bottom: 2px;
+    }
+    .testimonials .lates-news-sub-title {
+        font-size: 10px;
+    }
+    .testimonials .lates-news-slider .slick-dots li button:before {
+        width: 8px;
+        height: 8px;
+    }
+    .testimonials .lates-news-slider .slick-dots {
+        right: 0;
+        bottom: 130px;
+    }
+    .testimonials .lates-news-comments {
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .testimonials .lates-news-long-text {
+        max-width: 512px;
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .testimonials .lates-news-button a {
+        font-size: 12px;
+    }
+}
+@media (max-width: 668px) {
+    .testimonials .slider-image {
+        width: 100px;
+        height: 100px;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+        align-items: center;
+    }
+    .testimonials .textic {
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0px;
+        margin-bottom: 15px;
+    }
+    .testimonials .name {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .testimonials .sub-title {
+        font-size: 12px;
+        color: #464646;
+    }
+    .testimonials .slider-two .slick-dots {
+        bottom: 5px;
+    }
+    .testimonials .slider-two .slick-dots li button:before {
+        width: 8px;
+        height: 8px;
+    }
+    .testimonials .slider-item {
+        padding: 20px 0 50px 0;
+    }
+    .testimonials .lates-news-slider .slick-slide {
+        display: block;
+        flex-direction: column;
+    }
+    .testimonials .lates-news-body {
+        padding: 20px 0 0px 20px;
+    }
+    .testimonials .lates-news-title {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .testimonials .lates-news-text {
+        max-width: 320px;
+        line-height: 18px;
+        padding-bottom: 18px;
+        margin-bottom: 0;
+    }
+    .testimonials .lates-news-title-two {
+        font-size: 17px;
+        margin-bottom: 2px;
+    }
+    .testimonials .lates-news-sub-title {
+        font-size: 10px;
+    }
+    .testimonials .lates-news-slider .slick-dots li button:before {
+        width: 8px;
+        height: 8px;
+    }
+    .testimonials .lates-news-slider .slick-dots {
+        right: 0;
+        bottom: 130px;
+    }
+    .testimonials .lates-news-comments {
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .testimonials .lates-news-long-text {
+        max-width: 512px;
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .testimonials .lates-news-button a {
+        font-size: 12px;
+    }
+}
+@media (max-width: 640px) {
+    .testimonials .slider-image {
+        width: 100px;
+        height: 100px;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+        align-items: center;
+    }
+    .testimonials .textic {
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0px;
+        margin-bottom: 15px;
+    }
+    .testimonials .name {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .testimonials .sub-title {
+        font-size: 12px;
+        color: #464646;
+    }
+    .testimonials .slider-two .slick-dots {
+        bottom: 5px;
+    }
+    .testimonials .slider-two .slick-dots li button:before {
+        width: 8px;
+        height: 8px;
+    }
+    .testimonials .slider-item {
+        padding: 20px 0 50px 0;
+    }
+    .testimonials .lates-news-slider .slick-slide {
+        display: block;
+        flex-direction: column;
+    }
+    .testimonials .lates-news-body {
+        padding: 20px 0 0px 20px;
+    }
+    .testimonials .lates-news-title {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .testimonials .lates-news-text {
+        max-width: 320px;
+        line-height: 18px;
+        padding-bottom: 18px;
+        margin-bottom: 0;
+    }
+    .testimonials .lates-news-title-two {
+        font-size: 17px;
+        margin-bottom: 2px;
+    }
+    .testimonials .lates-news-sub-title {
+        font-size: 10px;
+    }
+    .testimonials .lates-news-slider .slick-dots li button:before {
+        width: 8px;
+        height: 8px;
+    }
+    .testimonials .lates-news-slider .slick-dots {
+        right: 0;
+        bottom: 130px;
+    }
+    .testimonials .lates-news-comments {
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .testimonials .lates-news-long-text {
+        max-width: 512px;
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .testimonials .lates-news-button a {
+        font-size: 12px;
+    }
+}
+@media (max-width: 568px) {
+    .testimonials .textic {
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0px;
+        margin-bottom: 15px;
+        max-width: 395px;
+    }
+}
+@media (max-width: 414px) {
+    .testimonials .textic {
+        margin: 10px auto 15px;
+        text-align: center;
+    }
+    .testimonials .name, .testimonials .sub-title {
+        text-align: center;
+    }
+    .testimonials .slider-two .slick-dots {
+        bottom: 11px;
+    }
+    .testimonials .lates-news-title {
+        text-align: center;
+    }
+    .testimonials .lates-news-text {
+        margin: 10px auto 0;
+        text-align: center;
+    }
+    .testimonials .lates-news-comments {
+        margin-top: 3px;
+    }
+    .testimonials .lates-news-long-text {
+        max-width: 350px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+@media (max-width: 412px) {
+    .testimonials .textic {
+        margin: 10px auto 15px;
+        text-align: center;
+    }
+    .testimonials .name, .testimonials .sub-title {
+        text-align: center;
+    }
+    .testimonials .slider-two .slick-dots {
+        bottom: 11px;
+    }
+    .testimonials .lates-news-title {
+        text-align: center;
+    }
+    .testimonials .lates-news-text {
+        margin: 10px auto 0;
+        text-align: center;
+    }
+    .testimonials .lates-news-comments {
+        margin-top: 3px;
+    }
+    .testimonials .lates-news-long-text {
+        max-width: 350px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+@media (max-width: 376px) {
+    .testimonials .textic {
+        max-width: 350px;
+    }
+    .testimonials .lates-news-long-text {
+        max-width: 300px;
+        margin-bottom: 18px;
+    }
+    .testimonials .lates-news-comments {
+        margin-top: 0px;
+        letter-spacing: 1px;
+    }
+    .footer-content .footer-text {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .footer-content {
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 360px) {
+    .testimonials .lates-news-long-text {
+        max-width: 300px;
+        margin-bottom: 18px;
+    }
+    .testimonials .lates-news-comments {
+        margin-top: 0px;
+        letter-spacing: 1px;
+    }
+    .footer-content .footer-text {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .footer-content {
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 320px) {
+    .testimonials .lates-news-long-text {
+        max-width: 275px;
+        margin-bottom: 18px;
+    }
+    .testimonials .lates-news-slider .slick-dots {
+        right: 0;
+    }
+    .testimonials .textic {
+        max-width: 300px;
+    }
+}
+
